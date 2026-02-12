@@ -1,0 +1,24 @@
+:root {
+    --customBG: #14171A /*this the color so u can change it urself*/
+}
+
+body {
+    background-color: var(--customBG) !important;
+    --tw-bg-base: var(--customBG) !important;
+}
+
+div[data-testid="sidebarColumn"] {
+    background-color: var(--customBG) !important;
+}
+
+div[data-testid="primaryColumn"] {
+    background-color: var(--customBG) !important;
+}
+
+.TweetBox {
+  background-color: var(--customBG); !important;
+}
+
+.r-kemksi {
+  background-color: var(--customBG); !important;
+}

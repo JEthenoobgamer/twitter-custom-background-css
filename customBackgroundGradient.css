@@ -1,0 +1,31 @@
+:root {
+    --customBG: linear-gradient(135deg, #0a011d, #04000b); /*u can change both colors and the angle for the gradient, or use another kind of gradient too*/
+}
+
+body {
+    background: var(--customBG) !important;
+    --tw-bg-base: var(--customBG) !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+
+div[data-testid="sidebarColumn"] {
+    background: var(--customBG) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+div[data-testid="primaryColumn"] {
+    background: var(--customBG) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.TweetBox {
+  background: var(--customBG); !important;
+}
+
+.r-kemksi {
+  background: var(--customBG); !important;
+}

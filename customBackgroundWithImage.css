@@ -1,0 +1,33 @@
+:root {
+    --customBG: linear-gradient(135deg, #0a011d86, #04000b83); /*change these colors for the gradient*/
+    --customIMGBG: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(''); /*put the url to your image here*/
+}
+
+body {
+    background: var(--customIMGBG) !important;
+    --tw-bg-base: var(--customBG) !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+
+div[data-testid="sidebarColumn"] {
+    background: var(--customBG) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+div[data-testid="primaryColumn"] {
+    background: var(--customBG) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.TweetBox {
+  background: var(--customBG); !important;
+}
+
+.r-kemksi {
+  background: var(--customBG); !important;
+}
